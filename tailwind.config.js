@@ -1,5 +1,14 @@
 const colors = {
-  //
+  default: '#D5E1EF',
+  'dark-navy': {
+    normal: '#1F314F',
+  },
+  grape: {
+    normal: '#3E52A3',
+  },
+  grey: {
+    normal: '#7D889E',
+  },
 }
 
 /*

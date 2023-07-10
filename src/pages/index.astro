@@ -3,7 +3,15 @@ import Layout from '@/layouts/Layout.astro';
 ---
 
 <Layout>
-	<section class="my-10">
-		<h1 class="font-medium text-2xl">App</h1>
+	<section class="my-10" aria-label="qr code information">
+    <article class="bg-white max-w-xs p-4 rounded-[1.25rem] shadow-[0_25px_25px_rgb(0_0_0_/_0.0476518)] text-center w-full">
+      <picture>
+        <img
+          src="qr-code.png"
+          class="rounded-[0.625rem]"
+          alt="QR Code"
+        />
+      </picture>
+    </article>
 	</section>
 </Layout>
