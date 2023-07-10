@@ -29,7 +29,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 - Semantic HTML5 markup
 - [Astro](https://astro.build) - Astro is an all-in-one web framework for building fast, content-focused websites
-- [Tailwindcss](https://tailwindcss.com) - Utility-first CSS Framework
+- [Tailwindcss](https://tailwindcss.com) - An utility-first CSS framework packed with classes
 
 ## Author
 
