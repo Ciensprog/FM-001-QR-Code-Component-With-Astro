@@ -28,8 +28,6 @@ import Attribution from '@/components/Attribution.astro';
       href="favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="favicon/site.webmanifest" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body class="bg-default">
     <main class="grid min-h-screen place-content-center p-5">
@@ -40,7 +38,24 @@ import Attribution from '@/components/Attribution.astro';
 </html>
 
 <style is:global>
+  @font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(fonts/Outfit-Regular.ttf) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(fonts/Outfit-Bold.ttf) format('woff2');
+  }
+
 	body {
+    font-family: 'Outfit', sans-serif;
 		font-size: 16px;
 		font-weight: 400;
 	}
